@@ -11,8 +11,8 @@ defineProps({
 </script>
 
 <template>
-    <div class="flex items-center justify-between border mb-2">
-        <div class="mb-2">
+    <div class="flex items-center justify-between  border-2 border-gray-500 mb-2 border-radius rounded-md">
+        <div class="mb-2 ">
             <input
                 class="line-through m-3 px-10"
                 type="checkbox"

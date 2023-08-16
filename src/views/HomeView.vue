@@ -79,9 +79,10 @@ const onClick = (todoItem) => {
 </script>
 
 <template>
-    <h1 class="text-center">todo app</h1>
-    <main class="x`text-black h-screen flex items-center justify-center">
-        <div class="`">
+    
+    <main class="x`text-black h-screen flex items-center justify-center bg-amber-100 bg-opacity-50 ">
+        <div class="bg-slate-100 p-10 rounded-xl">
+            <h1 class="text-center text-4xl mb-2 text-blue-500">Todo App</h1>
             <form class="w-[400px] mb-5" @submit.prevent="onSubmit" novalidate>
                 <FormInput name="todo" placeholder="Mau apa hari ini?" />
             </form>

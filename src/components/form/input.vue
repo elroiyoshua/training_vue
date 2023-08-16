@@ -48,8 +48,9 @@ const {
             :required="required"
             :placeholder="placeholder"
             :value="inputValue"
-            class="p-2 border-double border-4 border-gray-300 w-full block outline-none focus:ring focus:ring-blue-300"
+            class="p-2 border-b-[3px] border-black bg-transparent  w-full flex left-0 outline-none"
         />
+        
         <p v-if="errorMessage" class="mt-1 text-red-500 text-sm">
             {{ errorMessage }}
         </p>
